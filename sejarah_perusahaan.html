@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perhutani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <div class="container">
+        <img src="gambar/logopht.png" alt="logo perhutani" class="logo-pht">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tentangkami.html">Tentang Kami</a></li>
+                <li><a href="padangan.html">KPH Padangan</a></li>
+                <li><a href="unit_bisnis.html">Unit Bisnis</a></li>
+                <li><a href="kontak_kami.html">Kontak Kami</a></li>
+            </ul>
+        </nav>
+    </div>
+</header> 
+    <div class="sidebar">
+        <div class="sidebar-header">Tentang Perhutani</div>
+        <ul class="menu">
+            <li><a href="tentangkami.html">Tentang Kami</a></li>
+            <li><a href="visimisi.html">Visi dan Misi Perusahaan</a></li>
+            <li><a href="tugas_dan_fungsi.html">Tugas dan Fungsi</a></li>
+            <li><a href="sejarah_perusahaan.html">Sejarah Perusahaan</a></li>
+            <li><a href="profil_perusahaan.html">Profil Perusahaan</a></li>
+            <li><a href="tata_kelola_perusahaan.html">Tata Kelola Perusahaan</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown-container">
+        <div class="dropdown" onclick="toggleDropdown()">
+            <div class="dropdown-header">Tentang Perhutani <span>&#x25BC;</span></div>
+            <div class="dropdown-menu">
+                <a href="tentangkami.html">Tentang Kami</a>
+                <a href="visimisi.html">Visi dan Misi Perusahaan</a>
+                <a href="tugas_dan_fungsi.html">Tugas dan Fungsi</a>
+                <a href="sejarah_perusahaan.html">Sejarah Perusahaan</a>
+                <a href="profil_perusahaan.html">Profil Perusahaan</a>
+                <a href="tata_kelola_perusahaan.html">Tata Kelola Perusahaan</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="sejarah">
+            <div class="timeline-container">
+                <!-- Garis utama timeline -->
+                <div class="timeline"></div>
+                <div class="timeline-item">
+                  <div class="circle"></div>
+                  <div class="year">1897</div>
+                  <div class="text-container">
+                    <div class="text">
+                        Sejarah pengelolaan hutan di Jawa dan Madura, secara modern-institusional dimulai tahun 1897 dengan 
+                        dikeluarkannya “Reglement voor het beheer der bosschen van den Lande op Java en Madoera”, Staatsblad 
+                        1897 nomor 61 (disingkat “Bosreglement”) selain itu terbit pula “Reglement voor den dienst van het 
+                        Boschwezen op Java en Madoera” (disingkat “Dienst Reglement”) yang menetapkan aturan tentang organisasi 
+                        Jawatan Kehutanan, dimana dibentuk Jawatan Kehutanan dengan Gouvernement Besluit (Keputusan Pemerintah) 
+                        tanggal 9 Februari 1897 nomor 21, termuat dalam Bijblad 5164. Hutan-hutan Jati di Jawa mulai diurus 
+                        dengan baik, dengan dimulainya afbakening (pemancangan), pengukuran, pemetaan dan tata hutan.           
+                    </div>
+                    <button class="toggle-button">More</button>
+                  </div>
+                </div>
+            
+                <div class="timeline-item">
+                  <div class="circle"></div>
+                  <div class="year">1913</div>
+                  <div class="text-container">
+                    <div class="text">
+                        Penetapan “Reglement voor het beheer der bosschen van den Lande op Java en Madoera”, Staatsblad
+                        1913 nomor 495, yang mengatur tentang “eksploitasi sendiri (eigen beheer) atau penebangan borong
+                        (door particuliere aannemer)”.
+                    </div>
+                    <button class="toggle-button">More</button>
+                  </div>
+                </div>
+            
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="year">1927</div>
+                    <div class="text-container">
+                      <div class="text">
+                        Terbit Bosch_Ordonnantie, termuat dalam Staatsblad Tahun 1927 nomor 221 dan peraturan pelaksanaannya berupa 
+                        Bosch_Verordening 1932, nama lengkap dokumen: “Bepalingen met Betrekking Tot’s Lands Boschbeheer op Java en Madoera” 
+                        yang menjadi dasar pengurusan dan pengelolaan hutan di Jawa dan Madura oleh Jawatan Kehutanan (den dienst van het Boschwezen).
+                      </div>
+                      <button class="toggle-button">More</button>
+                    </div>
+                  </div>
+            
+                <div class="timeline-item">
+                  <div class="circle"></div>
+                  <div class="year">1930</div>
+                  <div class="text-container">
+                    <div class="text">
+                        Pengelolaan hutan Jati diserahkan kepada badan “Djatibedrijf” atau perusahaan hutan Jati dari
+                        Pemerintah (Jawatan Kehutanan). Perusahaan hutan Jati tersebut tidak berdiri lama, karena pada
+                        tahun 1938 oleh Directeur van Financien (Direktur Keuangan Pemerintahan Hindia Belanda)
+                        dinyatakan bahwa perusahaan yang bertujuan komersiil sebulat-bulatnya harus dihentikan, karena
+                        alasan-alasan berikut:
+                        <br>
+                        ● Pemerintah, yang diwakili oleh Jawatan Kehutanan, tidak hanya berkewajiban memprodusir dan
+                        menjadikan uang dari hasil kayu Jati saja, tetapi Jawatan Kehutanan bertugas pula memelihara
+                        hutan-hutan yang tidak langsung memberi keuntungan kepada Pemerintah. Yang dimaksud dengan
+                        hutan-hutan di atas, ialah hutan-hutan lindung, yang memakan amat banyak biaya sedang hasil
+                        langsung tidak ada atau sangat sedikit;
+                        <br>
+                        ● Perusahaan hutan Jati sebagai badan swasta atau perusahaan kayu perseorangan, menganggap
+                        hutan Jati kepunyaan Pemerintah sebagai modal yang tidak dinilai atau tidak diberi harga
+                        (sukar untuk menetapkan harga tanah dan kayu dari hutan Jati seluas 770.000 hektar), akan
+                        tetapi menggunakan hutan Jati itu sebagai obyek eksploitasi saja dan tidak mempengaruhi atau
+                        mengakibatkan kerugian suatu apapun kepada tanah dan hutan Jati milik Pemerintah yang
+                        diwakili oleh Jawatan Kehutanan, dipandang dari sudut hukum perusahaan, tindakan seperti di
+                        atas tidaklah benar.       
+                    </div>
+                    <button class="toggle-button">More</button>
+                  </div>
+                </div>
+            
+                <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="year">1940</div>
+                    <div class="text-container">
+                      <div class="text">
+                        Pengurusan hutan Jati dari “Djatibedrijf” dikembalikan lagi ke Jawatan Kehutanan. Pada tanggal
+                        8 Maret 1942 Hindia Belanda jatuh ke tangan Jepang (Dai Nippon), Jawatan Kehutanannya (i.c.
+                        Boschwezen) diberi nama Ringyo Tyuoo Zimusyo (RTZ), berturut-turut organisasi tersebut
+                        dimasukkan kedalam Departemen Sangyobu (urusan ekonomi, Juni 1942 – Oktober 1943), kemudian
+                        kedalam Departemen Zoosenkyoku (perkapalan, November 1943 s/d pertengahan 1945) dan setelah itu
+                        di bawah Departemen Gunzyuseizanbu atau Departemen Produksi Kebutuhan Perang, sampai dengan
+                        tanggal 15 Agustus 1945.       
+                      </div>
+                      <button class="toggle-button">More</button>
+                    </div>
+                  </div>
+            
+                  <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="year">1945</div>
+                    <div class="text-container">
+                      <div class="text">
+                        Pasca Kemerdekaan Republik Indonesia tanggal 17 Agustus 1945 dan berdirinya Negara Indonesia
+                        tanggal 18 Agustus 1945, hak, kewajiban, tanggung-jawab dan kewenangan pengelolaan hutan di Jawa
+                        dan Madura oleh Jawatan Kehutanan Hindia Belanda q.q. den Dienst van het Boschwezen, dilimpahkan
+                        secara peralihan kelembagaan kepada Jawatan Kehutanan Republik Indonesia berdasarkan Pasal II
+                        Aturan Peralihan Undang-Undang Dasar Republik Indonesia yang berbunyi: “Segala badan negara dan
+                        peraturan yang ada masih langsung berlaku, selama belum diadakan yang baru menurut undang-undang
+                        dasar ini.”
+                      </div>
+                      <button class="toggle-button">More</button>
+                    </div>
+                  </div>
+            
+                  <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="year">1960</div>
+                    <div class="text-container">
+                      <div class="text">
+                        Dengan disahkannya Ketetapan MPRS No. 11/MPRS/1960, seperti tersebut dalam Lampiran Buku I,
+                        Jilid III, Paragraf 493 dan paragraf 595, industri kehutanan ditetapkan menjadi Proyek B. Proyek
+                        B ini merupakan sumber penghasilan untuk membiayai proyek-proyek A (Tambahan Lembaran Negara
+                        R.I. No. 2551).Pada waktu itu direncanakan untuk mengubah status Jawatan Kehutanan menjadi
+                        Perusahaan Negara yang bersifat komersial.Tujuannya, agar kehutanan dapat menghasilkan
+                        keuntungan bagi kas Negara.Kemudian diterbitkan Peraturan Pemerintah Pengganti Undang-Undang
+                        Nomor 19 tahun 1960 tentang Perusahaan Negara.
+                        <br>
+                        Untuk mewujudkan perubahan status Jawatan Kehutanan menjadi Perusahaan Negara, Pemerintah
+                        mengeluarkan Peraturan Pemerintah Nomor 17 sampai dengan Nomor 30, tahun 1961, tentang
+                        ”Pembentukan Perusahaan-Perusahaan Kehutanan Negara (PERHUTANI)”.Pada tahun 1961 tersebut, atas
+                        dasar Undang-Undang Nomor 19 tahun 1960 tentang Perusahaan Negara, maka masing-masing dengan :
+                        <br>
+                        ● Peraturan Pemerintah Nomor 17 tahun 1961; yang ditetapkan dan diundangkan pada tanggal 29
+                        Maret 1961, dan berlaku surut sejak tanggal 1 Januari 1961; didirikan Badan Pimpinan Umum
+                        (BPU) Perusahaan Kehutanan Negara, disingkat ”BPU Perhutani”, termuat dalam Lembaran Negara
+                        tahun 1961 nomor 38, penjelasannya termuat dalam Tambahan Lembaran Negara No. 2172.
+                        <br>
+                        ● Peraturan Pemerintah Nomor 18 tahun 1961; yang ditetapkan dan diundangkan pada tanggal 29
+                        Maret 1961, dan berlaku surut sejak tanggal 1 Januari 1961; didirikan Perusahaan Kehutanan
+                        Negara Djawa Timur disingkat PN Perhutani Djawa Timur, termuat dalam Lembaran Negara tahun
+                        1961 nomor 39, penjelasannya termuat dalam Tambahan Lembaran Negara No. 2173.
+                        <br>
+                        ● Peraturan Pemerintah Nomor 19 tahun 1961; yang ditetapkan dan diundangkan pada tanggal 29
+                        Maret 1961, dan berlaku surut sejak tanggal 1 Januari 1961 didirikan Perusahaan Kehutanan
+                        Negara Djawa Tengah disingkat PN Perhutani Djawa Tengah, termuat dalam Lembaran Negara tahun
+                        1961 nomor 40, penjelasannya termuat dalam Tambahan Lembaran Negara No. 2174.
+                        <br>
+                        ● Peraturan Pemerintah Nomor 35 tahun 1963 tentang Penyerahan Pengusahaan Hutan-hutan
+                        Tertentu kepada Perusahaan-perusahaan Kehutanan Negara.diserahkan pengusahaan hutan-hutan
+                        tertentu yang ditunjuk oleh Menteri Pertanian dan Agraria kepada Perusahaan-perusahaan
+                        Kehutanan Negara, selanjutnya disingkat ”Perhutani”.
+                        <br>
+                        Presiden Direktur BPU Perhutani, Anda Ganda Hidajat, pada forum Konperensi Dinas
+                        Instansi-instansi Kehutanan tanggal 4 s/d 9 November 1963 di Bogor, dalam prasarannya berjudul:
+                        “Realisasi Perhutani”, pada halaman 2 menulis bahwa: “Dalam pelaksanaan UU No. 19 Tahun 1960
+                        tentang Pendirian Perusahaan-perusahaan Negara didirikanlah BPU Perhutani di Jakarta berdasarkan
+                        PP No.17 tahun 1961, sedangkan pengangkatan Direksinya yang pertama dilakukan pada tanggal 19
+                        Mei 1961 dengan Surat Keputusan Presiden R.I. No. 210/1961″. PERHUTANI-PERHUTANI daerah yang
+                        telah direalisir pendiriannya adalah :
+                        <br>
+                        ● Perhutani Djawa Timur pada tanggal 1 Oktober 1961;
+                        ● Perhutani Djawa Tengah pada tanggal 1 Nopember 1961;
+                        ● Perhutani Kalimantan Timur pada tanggal 1 Djanuari 1962;
+                        ● Perhutani Kalimantan Selatan pada tanggal 1 Djanuari 1962;
+                        ● Perhutani Kalimantan Tengah pada tanggal 1 April 1963”.
+                      </div>
+                      <button class="toggle-button">More</button>
+                    </div>
+                  </div>
+                
+                  <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="year">1972</div>
+                    <div class="text-container">
+                      <div class="text">
+                        Pemerintah Indonesia mendirikan Perusahaan Umum Kehutanan Negara atau disingkat Perum Perhutani
+                        berdasarkan Peraturan Pemerintah Nomor 15 Tahun 1972, ditetapkan tanggal 29 Maret 1972. Dengan
+                        Peraturan Pemerintah Nomor 15 Tahun 1972 ini, PN Perhutani Djawa Timur yang didirikan dengan
+                        Peraturan Pemerintah Nomor 18 tahun 1961, dan PN Perhutani Djawa Tengah yang didirikan dengan
+                        Peraturan Pemerintah Nomor 19 tahun 1961, dilebur kedalam dan dijadikan unit produksi dari Perum
+                        Perhutani (vide : Pasal 1 ayat (2) Peraturan Pemerintah Nomor 15 Tahun 1972).    
+                      </div>
+                      <button class="toggle-button">More</button>
+                    </div>
+                  </div>
+            
+                  <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="year">1978</div>
+                    <div class="text-container">
+                      <div class="text">
+                        Dengan Peraturan Pemerintah Nomor 2 Tahun 1978, Pemerintah menambah unit produksi Perum
+                        Perhutani dengan wilayah kerja yang meliputi seluruh areal hutan di Daerah Tingkat I Jawa Barat
+                        dan disebut Unit III Perum Perhutani.Dasar Hukum Perum Perhutani sebagaimana ditetapkan dalam
+                        Peraturan Pemerintah Nomor 15 Tahun 1972 juncto Peraturan Pemerintah Nomor 2 Tahun 1978,
+                        kemudian disempurnakan/diganti berturut-turut dengan Peraturan Pemerintah Nomor 36 Tahun 1986,
+                        Peraturan Pemerintah Nomor 53 Tahun 1999, Peraturan Pemerintah Nomor 14 Tahun 2001, dan terakhir
+                        dengan Peraturan Pemerintah Nomor 30 Tahun 2003.   
+                      </div>
+                      <button class="toggle-button">More</button>
+                    </div>
+                  </div>
+            
+                  <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="year">2014</div>
+                    <div class="text-container">
+                      <div class="text">
+                        Pemerintah mengeluarkan Peraturan Pemerintah RI No 73 tahun 2014 tentang Penambahan Penyertaan
+                        Modal Negara Republik Indonesia ke Dalam Modal Perusahaan Umum (Perum) Kehutanan Negara. Sejak 2
+                        Oktober 2014 tersebut Perum Perhutani ditunjuk Pemerintah selaku pemegang saham sebagai induk
+                        Holding BUMN Kehutanan dengan anak perusahaan PT Inhutani I, PT Inhutani II, PT Inhutani III, PT
+                        Inhutani IV, PT Inhutani V.
+                        <br>
+                        Penambahan penyertaan modal negara bagi Perum Perhutani berasal dari pengalihan seluruh saham
+                        milik Negara pada perusahaan PT. Inhutani I (didirikan berdasarkan PP No. 21/1972 di Kalimantan
+                        Timur), PT. Inhutani II (didirikan berdasarkan PP No. 32/1974 di Kalimantan Selatan), PT.
+                        Inhutani III (didirikan berdasarkan PP No. 31/1974 di Kalimantan Tengah), PT. Inhutani IV
+                        (didirikan berdasarkan PP No. 22/1991 di Sumatera Utara) dan PT. Inhutani V (didirikan
+                        berdasarkan PP No. 23/1991 di Sumatera Selatan).
+                      </div>
+                      <button class="toggle-button">More</button>
+                    </div>
+                  </div>
+            
+                  <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="year">2022</div>
+                    <div class="text-container">
+                      <div class="text">
+                        Perum Perhutani melakukan merger Anak Perusahaannya. Merger dilakukan pada PT Inhutani I, 
+                        PT Inhutani II dan PT Inhutani III yang bergabung ke dalam entitas PT Inhutani I. Sedangkan
+                        PT Inhutani IV, PT Inhutani V dan PT Perhutani Anugerah Kimia bergabung ke dalam entitas PT Inhutani V.
+                        <br>
+                        Selanjutnya bisnis wisata yang dikelola oleh Perum Perhutani dialihkelolakan secara bertahap kepada PT Palawi Risorsis yang berubah nama menjadi Econique.     
+                      </div>
+                      <button class="toggle-button">More</button>
+                    </div>
+                  </div>
+              </div>            
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <img src="gambar/logopht.png" alt="Logo pht" class="logo-pht">
+                <img src="gambar/logobumn.png" alt="Logo BUMN" class="logo-bumn">
+                <p>Perhutani adalah Badan Usaha Milik Negara berbentuk Perusahaan Umum (Perum) yang memiliki tugas dan wewenang untuk mengelola sumber daya hutan negara di pulau Jawa dan Madura.</p>
+                <div class="social-icons">
+                    <a href="#"><img src="gambarsosmed/fb.png" alt="Facebook"></a>
+                    <a href="#"><img src="gambarsosmed/twit.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/kph.padangan_/"><img src="gambarsosmed/ig.png" alt="Instagram"></a>
+                    <a href="#"><img src="gambarsosmed/tt.png" alt="TikTok"></a>
+                    <a href="#"><img src="gambarsosmed/yt.png" alt="YouTube"></a>
+                    <a href="#"><img src="gambarsosmed/link.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Unit Bisnis</h4>
+                    <ul>
+                        <li><a href="#">Kayu</a></li>
+                        <li><a href="#">Herbal</a></li>
+                        <li><a href="#">Non Kayu</a></li>
+                        <li><a href="#">Agroforestri</a></li>
+                        <li><a href="#">Ekowisata</a></li>
+                        <li><a href="#">Biomassa</a></li>
+                        <li><a href="#">Solusi Berbasis Alam</a></li>
+                    </ul>
+                </div>
+                <!-- <div>
+                    <h4>Publikasi</h4>
+                    <ul>
+                        <li><a href="#">Pengumuman</a></li>
+                        <li><a href="#">Publikasi Media</a></li>
+                        <li><a href="#">Press Release</a></li>
+                        <li><a href="#">Suara Rimba</a></li>
+                        <li><a href="#">Duta Rimba</a></li>
+                    </ul>
+                </div> -->
+                <div>
+                    <h4>Tentang Kami</h4>
+                    <ul>
+                        <li><a href="#">Visi, Misi, dan Tata Nilai</a></li>
+                        <li><a href="#">Tugas dan Fungsi</a></li>
+                        <li><a href="#">Sejarah Perusahaan</a></li>
+                        <li><a href="#">Profil Perusahaan</a></li>
+                        <li><a href="#">Tata Kelola Perusahaan</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2024. Perum Perhutani. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Kebijakan Privasi</a>
+                    <span>|</span>
+                    <a href="#">Syarat & Ketentuan</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+<!-- CSS -->
+ <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background: url('../images/background.jpg') no-repeat center center/cover;
+        color: #333;
+    }
+    
+    header {
+      background: #004d00;
+      color: white;
+      padding: 1rem 0;
+    }
+  
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 20px;
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    header nav ul {
+        display: flex;
+        list-style: none;
+    }
+  
+    header nav ul li {
+        margin: 0 15px;
+    }
+    
+    header nav ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    a {
+        text-decoration: none;
+        position: relative;
+        }
+    
+    a:hover::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: rgb(133, 160, 223);
+    }
+  
+    .container img.logo-pht {
+        width: 120px;
+        margin-bottom: 1rem;
+    }
+    /* Tombol menu toggle */
+    .menu-toggle {
+        display: none;
+        font-size: 1.5rem;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+  /*---------------------------------------------------------------------------------------------*/
+      
+      /*------------------------------------------------------------------*/
+      
+    /* sidebar */
+     /* Sidebar */
+     .sidebar {
+        width: 300px;
+        background-color: #f4f4f4;
+        border-right: 1px solid #ddd;
+        height: auto;
+        position: relative;
+        margin-top: auto;
+    }
+
+    .sidebar-header {
+        background-color: #004d25;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+        display: flex;
+        align-items: stretch;
+        margin-top: auto;
+        flex-direction: column;
+        position: relative;
+        z-index: 100px;
+    }
+
+    .menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu li {
+        border-bottom: 1px solid #ddd;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .menu li a:hover {
+        background-color: #004d25;
+        color: #fff;
+    }
+
+    /* Konten utama */
+    .content {
+        margin-left: 300px;
+        padding: 10px;
+        max-width: 100%;
+        margin-top: -374px;
+        height: auto;
+    }
+
+    /* Dropdown untuk mobile */
+    .dropdown-container {
+        display: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .dropdown {
+        width: 100%;
+        background-color: #0a5c2b;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        padding: 10px;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .dropdown-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
+    .dropdown-menu {
+        max-height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        background-color: rgba(74, 196, 207, 0.8);
+        border-radius: 10px;
+        transition: max-height 0.3s ease;
+    }
+
+    .dropdown-menu a {
+        padding: 12px 20px;
+        text-decoration: none;
+        color: #333;
+        display: block;
+        transition: background-color 0.3s ease;
+    }
+
+    .dropdown-menu a:hover {
+        background-color: #bcd0a4;
+    }
+
+    .dropdown.open .dropdown-menu {
+        max-height: 400px;
+    }
+
+    /* Kolom "Sejarah" */
+    .sejarah {
+       /*background-color: #d6ffdb;*/
+        border: 1px solid #838383;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: -15px;
+        font-size: 1.1rem;
+        color: #333;
+        max-width: 100%;
+        overflow: hidden;
+        word-wrap: break-word;
+        text-align: justify;
+    }
+
+
+    /* SEJARAH*/
+    .timeline-container {
+        /*background: rgba(31, 31, 31, 0.8); /* Latar transparan untuk teks */
+        width: 100%;
+        max-width: 800px; /*LEBAR TEKS*/
+        position: relative;
+        padding: 0;
+        margin-left: 70px;
+        margin-top: 0px;
+      }
+
+      /* Garis utama timeline */
+    .timeline{
+        position: absolute;
+        left: 19px;
+        width: 2px;
+        background-color: #7400bc;
+        height: 100%;
+        transition: height 0.5s ease-in-out;
+    }
+
+
+    /* Setiap item timeline */
+    .timeline-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        position: relative;
+        margin-left: 40px;
+        max-width: 100%; /* Menyesuaikan ukuran di layar kecil */
+    }
+  
+    /* Titik lingkaran di timeline */
+    .circle {
+        width: 20px;
+        height: 20px;
+        background-color: #6cc24a;
+        border-radius: 50%;
+        border: 4px solid white;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        left: -30px;
+        top: 3px;
+    }
+  
+    /* Tahun di setiap item */
+    .year {
+        color: #000000;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: -50px;
+        text-align: left;
+        position: absolute;
+        left: -30px;
+        top: 2px;
+    }
+    
+    /* Kontainer teks */
+    .text-container {
+        text-align: left;
+        max-width: 100%;
+        padding: 0 15px; /* Padding tambahan agar teks tidak terlalu rapat */
+    }
+    
+    /* Teks dengan batas tinggi yang lebih tinggi untuk tampilkan sebagian teks */
+    .text {
+        text-align: justify;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        max-height: 100px; /* Menampilkan sebagian teks */
+        margin-bottom: 20px;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    
+    /* Teks yang diperluas dengan animasi lebih keren */
+    .text.expanded {
+        -webkit-line-clamp: unset;
+        max-height: none;
+        opacity: 1;
+        transform: translateY(0);
+        padding-bottom: 20px;
+        animation: fadeInSlideDown 0.5s ease-out;
+    }
+    
+
+
+
+     /* Efek fade-out untuk teks saat menyusut */
+     .text.collapsing {
+        opacity: 0;
+        transform: translateY(0);
+        max-height: 100px; /* Kembalikan teks ke tinggi yang ditentukan */
+        transition: opacity 0.5s ease-out, max-height 0.5s ease-out;
+    }
+    
+    /* Tombol toggle dengan animasi lebih keren */
+    .toggle-button {
+        margin-top: 10px;
+        padding: 8px 16px;
+        cursor: pointer;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        position: relative;
+        overflow: hidden;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+  
+    /* Efek hover pada tombol */
+    .toggle-button:hover {
+        background-color: #45a049;
+        transform: scale(1.1);
+    }
+    
+    /* Efek klik tombol (bounce) */
+    .toggle-button.animated {
+        animation: bounce 0.5s ease-out;
+    }
+
+      /*-------------------footer-------------------------*/
+        footer {
+            background: #004d00;
+            color: white;
+            margin-top: -20px;
+            padding: 2rem 0;
+            font-size: 1rem;
+            width: 100%;
+            margin-top: 50px;
+        }
+        
+        .footer-container {
+            max-width: 1000px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .footer-info {
+            flex: 1 1 300px;
+            text-align: left;
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer-info img.logo-bumn {
+            width: 120px;
+            margin-left: 50px;
+            margin-bottom: 1rem;
+        }
+        .footer-info img.logo-pht {
+            width: 120px;
+            margin-bottom: 1rem;
+        }
+        
+        
+        .footer-info .social-icons a {
+            display: inline-block;
+            margin: 0 5px;
+        }
+        
+        .footer-info .social-icons img {
+            width: 24px;
+            height: 24px;
+        }
+        
+        .footer-links {
+            margin-top: 110px;
+            flex: 2 1 600px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .footer-links div {
+            margin-right: 20px;
+        }
+        
+        .footer-links h4 {
+            font-size: 1rem;
+            margin-bottom: 0.8rem;
+            margin-left: 40px;
+        }
+        
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-links ul li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-links ul li a {
+            margin-left: 40px;
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        
+        .footer-bottom {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .footer-bottom-links {
+            margin-top: 1rem;
+        }
+        
+        .footer-bottom-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+/*------------------------------------------------------------*/
+        .menu-toggle {
+        margin-left: auto; /*mengikuti pergantian layar, dia stabil*/
+        
+        font-size: 1.5rem;
+        cursor: pointer;
+        }
+
+      /*------------------------------------*/
+      @media (max-width: 768px) {
+        body {
+          font-size: 14px; /* Sesuaikan ukuran font agar lebih kecil */
+          padding: 0 10px; /* Berikan padding untuk ruang pada layar kecil */
+        }
+
+        /* Tampilkan tombol menu */
+        .menu-toggle {
+            z-index: 1; /* Pastikan tombol berada di atas elemen lainnya */
+            position: relative; /* Tambahkan posisi relatif untuk memastikan elemen tidak tersembunyi */
+            display: block;
+        }
+
+        /* Menu default tersembunyi di layar kecil */
+        header nav ul {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background: #004d00;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            width: auto;
+            z-index: 1000;
+        }
+
+        /* Menu aktif saat tombol ditekan */
+        header nav ul.active {
+            display: flex;
+        }
+
+        /* Sesuaikan tampilan logo di layar kecil */
+        .container img.logo-pht {
+            width: 100px;
+        }
+
+        /* Style menu untuk layar kecil */
+        header nav ul li {
+            margin: 10px 0;
+        }
+
+        /*sidebar-----------------------------*/
+        .sidebar {
+            display: none;
+        }
+
+        .dropdown-container {
+            display: block;
+        }
+
+        .content {
+            margin-top: 0px;
+            margin-left: 0;
+            padding: 10px;
+            max-width: 100%;
+        }
+
+        .header {
+            font-size: 1.5rem;
+            padding: 10px;
+        }
+
+        .dropdown {
+            max-width: 100%;
+        }
+
+        .dropdown-header {
+            font-size: 1rem;
+        }
+
+        .dropdown-menu a {
+            font-size: 14px;
+            padding: 10px;
+        }
+        /*--------------------footer---------------------------*/
+        .hero img.hutan {
+            height: 200px; /* Kurangi tinggi gambar hero */
+          }
+        
+          .hero-content {
+            top: 40px; /* Sesuaikan posisi konten hero */
+            padding: 10px;
+            width: 90%; /* Kurangi lebar konten hero */
+            font-size: 0.9rem; /* Perkecil teks di hero */
+          }
+       
+          footer .footer-container {
+            flex-direction: column; /* Tumpuk elemen footer */
+            align-items: center;
+          }
+        
+          footer .footer-links {
+            margin-top: -100px;
+            flex-direction: column; /* Tumpuk link di footer */
+            text-align: center;
+          }
+        
+          footer .footer-links h4 {
+            margin-left: 0; /* Hapus margin kiri */
+          }
+        
+          footer .footer-links ul li a {
+            margin-left: 0; /* Hapus margin kiri */
+          }
+
+        
+      }
+ </style>
+ <script>
+// Fungsi untuk toggle menu di mobile
+function toggleMenu() {
+  const menu = document.querySelector("header nav ul");
+  menu.classList.toggle("active");
+}
+
+/*--------------------------*/
+function toggleDropdown() {
+    const dropdown = document.querySelector('.dropdown');
+    const menu = document.querySelector('.dropdown-menu');
+    
+    if (dropdown.classList.contains('open')) {
+        menu.style.maxHeight = '0'; // Tutup dropdown
+    } else {
+        menu.style.maxHeight = menu.scrollHeight + 'px'; // Buka dropdown sesuai tinggi kontennya
+    }
+    
+    dropdown.classList.toggle('open');
+}
+
+document.querySelectorAll('.toggle-button').forEach(button => {
+    button.addEventListener('click', () => {
+      const textElement = button.previousElementSibling;
+      
+      // Toggle class 'expanded' saat tombol ditekan
+      if (textElement.classList.contains('expanded')) {
+        textElement.classList.remove('expanded');
+        button.textContent = 'More'; // Ganti teks tombol ke "More"
+      } else {
+        textElement.classList.add('expanded');
+        button.textContent = 'Less'; // Ganti teks tombol ke "Less"
+      }
+  
+      // Animasi tombol
+      button.classList.add('animated');
+      setTimeout(() => {
+        button.classList.remove('animated');
+      }, 500); // Durasi animasi tombol
+  
+      // Perbarui tinggi timeline setelah teks diperluas atau diperkecil
+      const timeline = document.querySelector('.timeline');
+      const timelineContainer = document.querySelector('.timeline-container');
+      const timelineHeight = timelineContainer.offsetHeight;
+      timeline.style.height = `${timelineHeight}px`;
+    });
+  });  
+ </script>
+</html>
